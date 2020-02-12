@@ -94,7 +94,7 @@ class VerticalImageAdapter(var activity: Activity, context: Context) : BaseAdapt
             }
             rltDelete.setOnClickListener {
                 if (mActivity is MainActivity) {
-                    (mActivity as MainActivity).horizontalImageAdapter?.removeImage(position)
+                    (mActivity as MainActivity).verticalImageAdapter?.removeImage(position)
                 }
             }
         }
